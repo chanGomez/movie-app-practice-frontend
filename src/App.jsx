@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Movies from './components/Movies/Movies'
-import Movie from './components/Movie/Movie'
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import NewMovieForm from './components/NewMovieForm/NewMovieForm'
 import EditMovieForm from './components/EditMovieForm/EditMovieForm'

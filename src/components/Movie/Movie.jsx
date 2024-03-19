@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import "./Movies.css"
 
-function Movie({movie, i}) {
+function Movie({movie}) {
   return (
     <Link to={`/movies/${movie.id}`}><div className='movie-container'>
-        <li key={i}>
+        <li>
     <article className="card">
 <div className="card-img">
 <div className="card-imgs pv delete"></div>

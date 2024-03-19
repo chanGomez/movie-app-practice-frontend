@@ -1,3 +1,10 @@
+
+.left-title-and-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .card-wrapper{
     width: 1000px;
 }
